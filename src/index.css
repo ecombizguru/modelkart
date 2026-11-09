@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Bodoni Moda", serif;
+  --font-sans: "Hanken Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-obsidian-base: #0A0A0C;
+  --color-obsidian-surface: #121214;
+  --color-obsidian-elevated: #1A1A1E;
+  --color-obsidian-border: #27272C;
+
+  --color-ivory-pure: #FAF8F5;
+  --color-ivory-muted: #C8C5BD;
+
+  --color-champagne-gold: #D4AF37;
+  --color-champagne-light: #E8CF7A;
+  --color-champagne-deep: #997B1E;
+
+  --color-status-verified: #C5A059;
+  --color-status-escrow: #3B82F6;
+  --color-status-success: #10B981;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-obsidian-base);
+    color: #e5e1e4;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Luxury Editorial Typography Utility Classes matching attachment */
+.font-headline-lg {
+  font-family: "Bodoni Moda", serif;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.015em;
+  font-weight: 500;
+}
+
+.font-headline-md {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+
+.font-headline-sm {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+
+.font-display-xl {
+  font-family: "Bodoni Moda", serif;
+}
+
+.font-label-caps {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.font-label-metric {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+.font-title-md {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.font-body-md {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.font-body-sm {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.font-body-lg {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272C;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}

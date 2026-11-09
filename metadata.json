@@ -1,0 +1,6 @@
+{
+  "name": "ModelKart — Haute Couture Creative Talent & Agency Marketplace",
+  "description": "Multi-vendor luxury talent management network where agencies list certified models, talents, and comp-cards with escrow-backed casting bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
